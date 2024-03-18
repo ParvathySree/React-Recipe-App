@@ -1,0 +1,47 @@
+.chef-icon{
+    height: 62px;
+    width: 62px;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 30px;
+    align-items: center;
+  
+    border-radius: 10px;
+    color:#22361e;
+    padding: 3px;
+  }
+  
+  .menu-list{
+    display: flex;
+    list-style: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    /* font-weight: 700; */
+    gap:60px;
+    
+  }
+  
+
+  .start-btn{
+    color: #22361e;
+  }
+
+
+.hdr-link{
+  text-decoration: none;
+  color:#22361e;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 6px;
+
+}
+
+.hdr-link:hover,
+.hdr-link:focus{
+  background-color: #c7e3c7;
+  border-radius: 5px;
+
+}
+
